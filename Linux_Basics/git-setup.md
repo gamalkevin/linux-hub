@@ -31,7 +31,8 @@ So here's a quick reference:
 | **Conflict**          | Occurs when changes clash in the same file; requires manual resolution. |
 | **Tag**               | Label for a specific commit, often used for versioning (e.g., `v1.0`). |
 | **Actions (GitHub)**  | Automations on GitHub that run tasks like testing or deployment on push. |
-You can access the full one on the references folder: [***file link goes here***]
+
+You can access a more descriptive info on the [References](https://github.com/gamalkevin/linux-hub/tree/main/References) folder.
 
 
 ## Configuring `git`
