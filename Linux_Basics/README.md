@@ -4,7 +4,7 @@ This folder contains guides and resources related to **Linux Basics**.
 
 ## Guides
 
-- [Guide 1](./Guide1.md) – Short description of what this guide covers.
+- [Git Setup](./git-setup.md) – Setting up Git on Linux.
 - [Guide 2](./Guide2.md) – Short description of what this guide covers.
 - [Guide 3](./Guide3.md) – Short description of what this guide covers.
 
