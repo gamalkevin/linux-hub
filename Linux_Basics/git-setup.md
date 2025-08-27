@@ -4,6 +4,8 @@ Hello, folks.
 
 Before this, I have set up `git` on my **Parrot OS**. Now I'm going to redo and document it here. This time, I'll be doing it on my **Manjaro XFCE**.
 
+---
+
 ## Git & Github Terms
 
 Let's get familiar with the terms first.
@@ -34,8 +36,9 @@ So here's a quick reference:
 
 You can access a more descriptive info on the [References](https://github.com/gamalkevin/linux-hub/tree/main/References) folder.
 
+---
 
-## Configuring `git`
+## Preconfiguring `git`
 
 I have `git` installed already. Let's check the version:
 ```
@@ -61,7 +64,7 @@ Also, since I'll be using git mainly to document things using [**Markdown**](htt
 [kev@Randrake ~]$ git config --global core.editor ghostwriter
 ```
 
-## Setting up SSH key
+### Setting up SSH key
 For Manjaro, I decided to not reuse the same key from the Parrot OS' git, so I generate a new one (and name it accordingly). 
 ```
 [kev@Randrake ~]$ ssh-keygen -t ed25519 -C "gamal.kevin@gmail.com" -f ~/.ssh/id_ed25519_manjarokey
@@ -98,6 +101,8 @@ Hi gamalkevin! You've successfully authenticated, but GitHub does not provide sh
 ```
 Setting successful; now moving on to...
 
+---
+
 ## Setting up `git`
 
 ### On GitHub
@@ -131,9 +136,11 @@ To access the repo folder, simply `cd`:
 cd ~/Projects/linux-hub
 ```
 
-We've succesfully set up git on your local machine, and it's ready to go. If you're still interested, you can continue on reading.
+We've succesfully set up git on our local machine, and it's ready to go. If you're still interested, you can continue on reading on how I prepopulate the folders for categorizing future docum
 
-## Populating the repo
+---
+
+## Prepopulating the repo
 Since I'm going to be using this repo as my **Linux Knowledge Hub**, I figure it's better to setup the folders from now.
 
 However, git doesn't support pushing empty folders. So I'll be creating placeholder README.md (*which themselves are using a same template*) in every folder category. 
@@ -172,17 +179,15 @@ What this script do:
 - `touch` creates an empty `README.md` inside each folder.
 - All `README.md` use the same template, for uniformity.
 
-### 
-
-When I add/edit files, I can push later on using 
-
-### add short notes about `add`, `commmit`, and `push` here
+---
 
 ## Notes
 - When cloning, you will notice that I used SSH link to clone (*Repo main page: Code > SSH*) 
-	- While it does require extra initial steps on setup, it will be way smoother as it automatically uses the SSH key. 
-	- This way, I don't need to repeatedly enter credentials unlike the `https` mode that is token/password-based.
-- 
+	* While it does require extra initial steps on setup, it will be way smoother as it automatically uses the SSH key. 
+	* This way, I don't need to repeatedly enter credentials unlike the `https` mode that is token/password-based.
 
+---
 
+My git repo is finally fully ready to use. To read more about **`git` usage** (most used commands, how-to), go to [Git Usage](./git-usage.md).
 
+*Thanks for reading!*

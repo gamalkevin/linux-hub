@@ -1,5 +1,5 @@
 # Git Usage
-Continuing from [Git Setup](./git-setup.md), we can now delve into git usage. Let's see what are the most-used commands on `git`. A cheat sheet, if you may.
+Continuing from [git setup](./git-setup.md), we can now delve into `git` usage. Let's see what are the most-used commands on `git`. A cheat sheet, if you may.
 
 ---
 
