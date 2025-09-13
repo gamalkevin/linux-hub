@@ -7,6 +7,7 @@ This folder contains guides and resources related to **Linux Basics**.
 - [Git Setup](./git-setup.md) – Setting up Git on Linux.
 - [Git Usage](./git-usage.md) – Using git on Linux, with most common commands.
 - [Removing Linux & Bootloader Cleanup](./distro-removal.md) – Removing an installed testing distro using daily-drive linux distro (Manjaro).
+- [Unusual .ISO Boot Problem](./unusual-iso-boot-problem) – Figuring out how to boot an ISO file with unusual structuring
 
 ## Notes
 
