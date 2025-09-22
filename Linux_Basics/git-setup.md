@@ -102,6 +102,19 @@ Hi gamalkevin! You've successfully authenticated, but GitHub does not provide sh
 **Note:**
 As you might have noticed, I named my key with a personal identifier `manjarokey`. I have multiple Linux systems installed in various places (work, home, portable HDDs), so I decided to give unique names to each SSH key.
 
+But when you test the connection, you will get an error:
+```
+$ ssh -T git@github.com git@github.com: Permission denied (publickey).
+```
+
+The fix is simple: We need to add a config in `~/.ssh/config` so `git` will know which key to use. For example:
+```
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_ed25519_manjarokey
+```
+
 Setting successful; now moving on to...
 
 ---
