@@ -99,6 +99,9 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
 Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
 Hi gamalkevin! You've successfully authenticated, but GitHub does not provide shell access.
 ```
+**Note:**
+As you might have noticed, I named my key with a personal identifier `manjarokey`. I have multiple Linux systems installed in various places (work, home, portable HDDs), so I decided to give unique names to each SSH key.
+
 Setting successful; now moving on to...
 
 ---
